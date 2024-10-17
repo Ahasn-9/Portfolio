@@ -1,8 +1,11 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   position: relative;
   height: 604px;
   width: 375px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -80,15 +83,18 @@ body {
   margin-left: 8px;
   margin-right: 8px;
 }
+
 .work-cards {
   height: 2700px;
   width: 375px;
   display: grid;
   justify-content: start;
   padding: 10px;
+
   /* background-color: #f7f7f9; */
   padding-left: 20px;
 }
+
 .work-card1 {
   width: 327px;
   height: 552px;
@@ -97,6 +103,7 @@ body {
   gap: 12px;
   border: 1px solid #dfe1e6;
 }
+
 .bt1 {
   width: 128px;
   height: 48px;
@@ -104,14 +111,14 @@ body {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  font-family: poppins, sans-serif;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 700px;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #6070ff;
 }
+
 .portfolio_image {
   width: 322px;
   height: 220px;
@@ -119,19 +126,19 @@ body {
   padding: 5px;
   padding-left: 2px;
 }
+
 .t1 {
-  font-family: poppins, sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: left;
   margin-top: 6px;
   color: #172b4d;
 }
+
 .list1 {
   display: flex;
-  font-family: poppins, sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700px;
   text-align: left;
   justify-content: space-between;
   width: 236px;
@@ -140,19 +147,21 @@ body {
   padding-left: 1px;
   color: #7a869a;
 }
+
 .Canopy {
-  font: weight 700px;
+  font-weight: 700px;
   list-style-type: none;
   color: #344563;
 }
+
 .para1 {
-  font-family: poppins, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #344563;
 }
+
 .language {
   display: inline-block;
   border-radius: 8px;
@@ -160,12 +169,14 @@ body {
   padding: 5px;
   padding-top: 7px;
 }
+
 .btn3 {
   display: flex;
 }
+
 .list2 {
   display: block;
   align-items: flex-start;
-  margin-left: 0px;
-  padding-left: 0px;
+  margin-left: 0;
+  padding-left: 0;
 }
