@@ -46,8 +46,12 @@ body {
   background-color: #6372ff;
   display: block;
 }
-
+.headline {
+  width: 375px;
+  height: 530px;
+}
 .headline-title {
+  height: 175px;
   font-size: 40px;
   font-weight: 700;
   text-align: left;
@@ -56,6 +60,8 @@ body {
 }
 
 .headline-text {
+  width: 327px;
+  height: 146px;
   font-size: 16px;
   font-weight: 400;
   color: #344563;
@@ -85,42 +91,82 @@ body {
 }
 
 .work-cards {
-  height: 2700px;
-  width: 375px;
+  height: 2600px;
+  /* width: 375px; */
+  top: 718px;
   display: grid;
   justify-content: start;
-  padding: 10px;
-
-  /* background-color: #f7f7f9; */
-  padding-left: 20px;
+  padding: 114px 24px 114px 24px;
+  gap: 88px;
+  background-color: rgb(247, 247, 247);
 }
 
 .work-card1 {
-  width: 327px;
+  width: 300px;
   height: 552px;
-  padding: 16px;
+  padding: 10px;
   border-radius: 16px;
   gap: 12px;
   border: 1px solid #dfe1e6;
+  background-color: white;
+}
+.work-card2 {
+  width: 300px;
+  height: 552px;
+  padding: 10px;
+  border-radius: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  font-size: 32px;
+}
+.work-card2 .see-project {
+  margin-top: 10px;
+}
+.work-card3 {
+  width: 300px;
+  height: 552px;
+  padding: 10px;
+  border-radius: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+}
+.work-card4 {
+  width: 300px;
+  height: 552px;
+  padding: 10px;
+  border-radius: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  background-color: white;
+}
+.see-project {
+  margin-top: 20px;
 }
 
-.bt1 {
-  width: 128px;
-  height: 48px;
-  top: 12px;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #6070ff;
-  font-size: 17px;
-  font-weight: 700px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
   text-align: center;
-  color: #6070ff;
+  text-decoration: none;
+  color: #3333ff; /* Blue text color */
+  border: 1px solid #3333ff; /* Blue border */
+  border-radius: 8px;
+  background-color: transparent; /* Transparent background */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e0e0ff; /* Light blue background on hover */
+  color: #3333ff; /* Keep text color on hover */
 }
 
 .portfolio_image {
-  width: 322px;
+  width: 295px;
   height: 220px;
   border-radius: 8px;
   padding: 5px;
@@ -129,7 +175,7 @@ body {
 
 .t1 {
   font-size: 32px;
-  font-weight: 700px;
+  font-weight: bold;
   text-align: left;
   margin-top: 6px;
   color: #172b4d;
@@ -149,7 +195,7 @@ body {
 }
 
 .Canopy {
-  font-weight: 700px;
+  font-weight: bold;
   list-style-type: none;
   color: #344563;
 }
@@ -160,23 +206,20 @@ body {
   line-height: 24px;
   text-align: left;
   color: #344563;
+  margin: 8px 0 8px 0;
 }
 
-.language {
-  display: inline-block;
-  border-radius: 8px;
-  background-color: #ebebff;
-  padding: 5px;
-  padding-top: 7px;
-}
-
-.btn3 {
+.tech-stack {
   display: flex;
+  gap: 10px;
 }
 
-.list2 {
-  display: block;
-  align-items: flex-start;
-  margin-left: 0;
-  padding-left: 0;
+.tag {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500px;
+  background-color: #e0e0ff; /* Light blue background */
+  color: #3333ff; /* Blue text */
 }
