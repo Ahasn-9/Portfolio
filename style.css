@@ -46,10 +46,12 @@ body {
   background-color: #6372ff;
   display: block;
 }
+
 .headline {
   width: 375px;
   height: 530px;
 }
+
 .headline-title {
   height: 175px;
   font-size: 40px;
@@ -92,7 +94,6 @@ body {
 
 .work-cards {
   height: 2600px;
-  /* width: 375px; */
   top: 718px;
   display: grid;
   justify-content: start;
@@ -110,6 +111,7 @@ body {
   border: 1px solid #dfe1e6;
   background-color: white;
 }
+
 .work-card2 {
   width: 300px;
   height: 552px;
@@ -120,9 +122,11 @@ body {
   background-color: white;
   font-size: 32px;
 }
+
 .work-card2 .see-project {
   margin-top: 10px;
 }
+
 .work-card3 {
   width: 300px;
   height: 552px;
@@ -132,6 +136,7 @@ body {
   border: 1px solid #dfe1e6;
   background-color: white;
 }
+
 .work-card4 {
   width: 300px;
   height: 552px;
@@ -141,7 +146,8 @@ body {
   border: 1px solid #dfe1e6;
   background-color: white;
 }
-.see-project {
+
+.work-card1 .work-card3 .work-card4 .see-project {
   margin-top: 20px;
 }
 
@@ -153,8 +159,8 @@ body {
   font-weight: 500px;
   text-align: center;
   text-decoration: none;
-  color: #3333ff; /* Blue text color */
-  border: 1px solid #3333ff; /* Blue border */
+  color: #33ff; /* Blue text color */
+  border: 1px solid #33ff; /* Blue border */
   border-radius: 8px;
   background-color: transparent; /* Transparent background */
   transition: background-color 0.3s, color 0.3s;
@@ -162,7 +168,7 @@ body {
 
 .btn:hover {
   background-color: #e0e0ff; /* Light blue background on hover */
-  color: #3333ff; /* Keep text color on hover */
+  color: #33ff; /* Keep text color on hover */
 }
 
 .portfolio_image {
@@ -221,5 +227,5 @@ body {
   font-size: 12px;
   font-weight: 500px;
   background-color: #e0e0ff; /* Light blue background */
-  color: #3333ff; /* Blue text */
+  color: #33ff; /* Blue text */
 }
