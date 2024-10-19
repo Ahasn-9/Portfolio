@@ -78,11 +78,15 @@ body {
   margin: 24px;
 }
 
-.social-icons {
+.aboutUs-links .headline-link {
+  margin: 0;
+}
+
+.aboutUs-links .social-icons {
   display: flex;
   list-style: none;
   margin-top: 12px;
-  margin-left: 16px;
+  margin-left: 0;
 }
 
 .social-icons a img {
@@ -147,7 +151,15 @@ body {
   background-color: white;
 }
 
-.work-card1 .work-card3 .work-card4 .see-project {
+.work-card4 .see-project {
+  margin-top: 20px;
+}
+
+.work-card1 .see-project {
+  margin-top: 20px;
+}
+
+.work-card3 .see-project {
   margin-top: 20px;
 }
 
@@ -228,4 +240,112 @@ body {
   font-weight: 500px;
   background-color: #e0e0ff; /* Light blue background */
   color: #33ff; /* Blue text */
+}
+
+.aboutUS {
+  width: 327px;
+  height: 1063px;
+  padding: 114px 24px 114px 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 80px;
+}
+
+.aboutMyselftext {
+  width: 327px;
+  height: 35px;
+  font-family: poppins, sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.aboutMyselflinertext {
+  width: 338px;
+  height: 160px;
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.aboutMyselflinertext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #172b4d;
+}
+
+.bt2 {
+  width: 170px;
+  height: 48px;
+  top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+  background-color: #ffff;
+}
+
+.skills {
+  width: 327px;
+  height: 72px;
+  padding-top: 24px;
+}
+
+.langu1 {
+  display: flex;
+  justify-content: space-between;
+  width: 327px;
+  height: 72px;
+  margin-top: 20px;
+}
+
+.Union {
+  width: 12px;
+  height: 6px;
+  padding-top: 32px;
+  padding-right: 10px;
+}
+
+.l3 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.codinglanguages {
+  width: 327px;
+  height: 72px;
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.codingtext {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-top: 11px;
+  padding-left: 25px;
 }
