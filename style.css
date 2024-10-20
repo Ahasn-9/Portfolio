@@ -353,3 +353,90 @@ body {
   padding-top: 11px;
   padding-left: 25px;
 }
+
+.forms {
+  width: 400px;
+  height: 700px;
+  padding-top: 50px;
+}
+.Contactform {
+  width: 375px;
+  height: 700px;
+  border-top-left-radius: 80px;
+  padding-top: 65px;
+  background-color: #6070ff;
+  background-image: url(./Assets/contact\ form\ shapes-mobile.png);
+  background-repeat: no-repeat;
+}
+.contactheader {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #ffffff;
+  text-align: center;
+}
+.contacttext {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  width: 299px;
+  height: 137px;
+  padding-left: 30px;
+}
+.input1 {
+  width: 327px;
+  height: 48px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: Poppons, sans-serif;
+  border: solid 1px #ffff;
+  margin-top: 20px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 3px;
+}
+.input2 {
+  width: 327px;
+  height: 170px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: Poppons, sans-serif;
+  border: solid 1px #ffff;
+  margin-top: 20px;
+  color: #b3bac5;
+}
+
+.bt3 {
+  width: 170px;
+  height: 48px;
+  top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+  background-color: #ffff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contact-img {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 153px;
+}
+
+.indicator {
+  background-color: #6070ff;
+}
