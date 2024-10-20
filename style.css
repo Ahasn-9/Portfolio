@@ -359,6 +359,7 @@ body {
   height: 700px;
   padding-top: 50px;
 }
+
 .Contactform {
   width: 375px;
   height: 700px;
@@ -368,14 +369,16 @@ body {
   background-image: url(./Assets/contact\ form\ shapes-mobile.png);
   background-repeat: no-repeat;
 }
+
 .contactheader {
   font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
+
 .contacttext {
   font-family: Poppins, sans-serif;
   font-size: 18px;
@@ -387,6 +390,7 @@ body {
   height: 137px;
   padding-left: 30px;
 }
+
 .input1 {
   width: 327px;
   height: 48px;
@@ -395,12 +399,13 @@ body {
   font-family: Poppons, sans-serif;
   border: solid 1px #ffff;
   margin-top: 20px;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
   padding-left: 3px;
 }
+
 .input2 {
   width: 327px;
   height: 170px;
