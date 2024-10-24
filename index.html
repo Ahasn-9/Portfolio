@@ -18,7 +18,7 @@
     <header class="header">
       <nav class="navbar">
         <h1 class="logo">My Logo</h1>
-        <div class="menu-icon">
+        <div class="menu-icon" id="menuIcon">
           <span></span>
           <span></span>
           <span></span>
@@ -27,12 +27,14 @@
     </header>
     <div class="mobile-menu" id="mobileMenu">
       <div class="menu-header">
-        <button class="close-btn" id="closeMenu">✕</button>
+        <button id="closeMenu">X</button>
       </div>
-      <nav class="menu-items">
-        <a href="#portfolio" class="menu-item">Portfolio</a>
-        <a href="#about" class="menu-item">About</a>
-        <a href="#contact" class="menu-item">Contact</a>
+      <nav class="menu-nav">
+        <ul class="menu-list">
+          <li><a href="#portfolio" class="menu-item">Portfolio</a></li>
+          <li><a href="#about" class="menu-item">About</a></li>
+          <li><a href="#contact" class="menu-item">Contact</a></li>
+        </ul>
       </nav>
     </div>
 
@@ -188,7 +190,24 @@
         </div>
       </div>
     </section>
+    <footer class="forms">
+      <img src="src/contact form shapes-mobile@3x.png" alt="" class="contact-img">
+      <form class="Contactform" action="https://formspree.io/f/mwkgnlny" method="post">
 
+
+        <h2 class="contactheader">Contact me</h2>
+        <p class="contacttext">If you have an application you are interested in developing, a feature that you need
+          built or
+          a project that needs coding.
+          I’d love to help with it!</p>
+        <input class="input1" type="text" name="Name" value="Lorem Ispum" required>
+        <input class="input1" type="email" name="Email" value="loremispum@gmail.com" required>
+        <input class="input2" type="text" value="Write your message her...">
+        <button class="bt3">Get in touch</button>
+
+      </form>
+      <img src="src/Light.png" alt="" class="indicator">
+    </footer>
     <script src="app.js"></script>
   </body>
 
