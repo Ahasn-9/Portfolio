@@ -9,6 +9,12 @@ body {
   font-style: normal;
 }
 
+main {
+  width: 375px;
+  height: 604px;
+  display: block;
+}
+
 .background-img {
   position: absolute;
   top: 80px;
