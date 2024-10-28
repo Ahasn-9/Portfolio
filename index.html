@@ -18,17 +18,29 @@
   <header class="header">
    <nav class="navbar">
     <h1 class="logo">My Logo</h1>
-    <div class="menu-icon">
+    <div class="menu-icon" id="menuIcon">
      <span></span>
      <span></span>
      <span></span>
     </div>
    </nav>
   </header>
+  <div class="mobile-menu" id="mobileMenu">
+   <div class="menu-header">
+    <button id="closeMenu">X</button>
+   </div>
+   <nav class="menu-nav">
+    <ul class="menu-list">
+     <li><a href="#portfolio" class="menu-item">Portfolio</a></li>
+     <li><a href="#about" class="menu-item">About</a></li>
+     <li><a href="#contact" class="menu-item">Contact</a></li>
+    </ul>
+   </nav>
+  </div>
 
   <section class="headline">
    <img src="background1.png" class="background-img">
-   <h2 class="headline-title">I’m M Ahsan. Glad to see you!</h2>
+   <h2 class="headline-title">I’m Mr Ahsan. Glad to see you!</h2>
    <p class="headline-text">
     I’m a software developer! I can help you build a product, feature, or
     website. Look through some of my work and experience! If you like what
@@ -196,8 +208,7 @@
    </form>
    <img src="src/Light.png" alt="" class="indicator">
   </footer>
-
-
+  <script src="app.js"></script>
  </body>
 
 </html>
