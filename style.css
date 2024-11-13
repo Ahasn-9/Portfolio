@@ -1,5 +1,8 @@
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -496,4 +499,233 @@ main {
 
 .menu-icon {
   cursor: pointer;
+}
+.menu-nav {
+  display: block; /* Hidden by default on mobile */
+}
+/*  */
+/* Base styles remain the same for mobile */
+
+/* Desktop styles (768px and above) */
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* Header adjustments */
+  .navbar {
+    padding: 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: none; /* Hide hamburger menu */
+  }
+
+  /* Show desktop navigation */
+  .menu-list {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .desktop-menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+  }
+  .desktop-menu li a {
+    color: #344563;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .menu-list li a {
+    color: #344563;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* Headline section */
+  .headline {
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 260px;
+    background: url("background1.png") no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .headline-link {
+    margin-left: 0px;
+  }
+  .headline .social-icons {
+    margin-left: -10px;
+  }
+
+  .headline-title {
+    font-size: 48px;
+    margin: 0 0 12px 0;
+    height: auto;
+  }
+
+  .headline-text {
+    width: 100%;
+    height: auto;
+    margin: 12px 0;
+  }
+  .headline .background-img {
+    display: none;
+  }
+
+  /* Work cards section */
+  /* Work cards section */
+  .work-cards {
+    padding: 142px 142px;
+    height: auto;
+    gap: 142px;
+  }
+
+  .work-card1,
+  .work-card2,
+  .work-card3,
+  .work-card4 {
+    width: 1100px;
+    height: 500px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image content";
+    gap: 46px;
+    align-items: center;
+  }
+  .work-card1 .list1,
+  .work-card2 .list1,
+  .work-card3 .list1,
+  .work-card4 .list1 {
+    margin-top: 16px;
+  }
+
+  .work-card1 .portfolio_image,
+  .work-card3 .portfolio_image {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .work-card1 .card-content,
+  .work-card3 .card-content {
+    grid-area: content;
+  }
+
+  .work-card2 .portfolio_image,
+  .work-card4 .portfolio_image {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .work-card2 .card-content,
+  .work-card4 .card-content {
+    grid-area: content;
+  }
+
+  .portfolio_image {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  /* About section */
+  .aboutUS {
+    width: 100%;
+    height: auto;
+    padding: 142px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 37px;
+  }
+
+  .about {
+    padding-right: 37px;
+  }
+
+  .skills {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  /* Contact form */
+  .forms {
+    width: 100%;
+    height: auto;
+    background-color: #6070ff;
+    border-top-left-radius: 150px;
+  }
+
+  .Contactform {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 142px 30px;
+    background-image: url("contact-form-background-desktop.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacttext {
+    width: 569px;
+    height: auto;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .input1,
+  .input2 {
+    width: 447px;
+    margin: 20px 0;
+  }
+
+  .bt3 {
+    margin: 20px 0;
+  }
+}
+
+/* Tablet-specific adjustments */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headline {
+    padding: 100px 50px;
+  }
+
+  .work-cards {
+    padding: 100px 50px;
+    gap: 100px;
+  }
+
+  .aboutUS {
+    padding: 100px 50px;
+  }
+}
+
+/* Large desktop screens */
+@media screen and (min-width: 1440px) {
+  .headline {
+    padding: 200px 260px;
+  }
+
+  .work-cards {
+    padding: 142px 142px;
+  }
 }
