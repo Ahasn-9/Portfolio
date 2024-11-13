@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -42,11 +42,16 @@ main {
   margin: 24px;
 }
 
+.menu-nav {
+  display: block;
+}
+
 .menu-icon {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin: 24px;
+  cursor: pointer;
 }
 
 .menu-icon span {
@@ -71,7 +76,7 @@ main {
   font-weight: 700;
   text-align: left;
   color: #172b4d;
-  margin: 114px 24px 12px 24px;
+  margin: 114px 24px 12px;
 }
 
 .headline-text {
@@ -80,7 +85,7 @@ main {
   font-size: 16px;
   font-weight: 400;
   color: #344563;
-  margin: 12px 24px 12px 24px;
+  margin: 12px 24px;
 }
 
 .headline-link {
@@ -114,46 +119,22 @@ main {
   top: 718px;
   display: grid;
   justify-content: start;
-  padding: 114px 24px 114px 24px;
+  padding: 114px 24px;
   gap: 88px;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(247 247 247);
 }
 
-.work-card1 {
-  width: 300px;
-  height: 552px;
-  padding: 10px;
-  border-radius: 16px;
-  gap: 12px;
-  border: 1px solid #dfe1e6;
-  background-color: white;
+.portfolio_image {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 2px;
 }
 
-.work-card2 {
-  width: 300px;
-  height: 552px;
-  padding: 10px;
-  border-radius: 16px;
-  gap: 12px;
-  border: 1px solid #dfe1e6;
-  background-color: white;
-  font-size: 32px;
-}
-
-.work-card2 .see-project {
-  margin-top: 10px;
-}
-
-.work-card3 {
-  width: 300px;
-  height: 552px;
-  padding: 10px;
-  border-radius: 16px;
-  gap: 12px;
-  border: 1px solid #dfe1e6;
-  background-color: white;
-}
-
+.work-card1,
+.work-card2,
+.work-card3,
 .work-card4 {
   width: 300px;
   height: 552px;
@@ -164,16 +145,19 @@ main {
   background-color: white;
 }
 
+.work-card2 {
+  font-size: 32px;
+}
+
+.work-card1 .see-project,
+.work-card2 .see-project,
+.work-card3 .see-project,
 .work-card4 .see-project {
   margin-top: 20px;
 }
 
-.work-card1 .see-project {
-  margin-top: 20px;
-}
-
-.work-card3 .see-project {
-  margin-top: 20px;
+.work-card2 .see-project {
+  margin-top: 10px;
 }
 
 .btn {
@@ -181,27 +165,19 @@ main {
   padding: 10px 20px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
-  color: #33ff; /* Blue text color */
-  border: 1px solid #33ff; /* Blue border */
+  color: #33f;
+  border: 1px solid #33f;
   border-radius: 8px;
-  background-color: transparent; /* Transparent background */
+  background-color: transparent;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-  background-color: #e0e0ff; /* Light blue background on hover */
-  color: #33ff; /* Keep text color on hover */
-}
-
-.portfolio_image {
-  width: 295px;
-  height: 220px;
-  border-radius: 8px;
-  padding: 5px;
-  padding-left: 2px;
+  background-color: #e0e0ff;
+  color: #33f;
 }
 
 .t1 {
@@ -215,7 +191,7 @@ main {
 .list1 {
   display: flex;
   font-size: 13px;
-  font-weight: 700px;
+  font-weight: 700;
   text-align: left;
   justify-content: space-between;
   width: 236px;
@@ -237,7 +213,7 @@ main {
   line-height: 24px;
   text-align: left;
   color: #344563;
-  margin: 8px 0 8px 0;
+  margin: 8px 0;
 }
 
 .tech-stack {
@@ -250,15 +226,15 @@ main {
   border-radius: 8px;
   font-family: Arial, sans-serif;
   font-size: 12px;
-  font-weight: 500px;
-  background-color: #e0e0ff; /* Light blue background */
-  color: #33ff; /* Blue text */
+  font-weight: 500;
+  background-color: #e0e0ff;
+  color: #33f;
 }
 
 .aboutUS {
   width: 327px;
   height: 1063px;
-  padding: 114px 24px 114px 24px;
+  padding: 114px 24px;
   background-repeat: no-repeat;
   background-size: cover;
   border-top-right-radius: 80px;
@@ -268,7 +244,7 @@ main {
   width: 327px;
   height: 35px;
   font-family: poppins, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
@@ -306,7 +282,7 @@ main {
   letter-spacing: 0.03em;
   text-align: center;
   color: #6070ff;
-  background-color: #ffff;
+  background-color: #fff;
 }
 
 .skills {
@@ -343,13 +319,11 @@ main {
 .codinglanguages {
   width: 327px;
   height: 72px;
-  padding-top: 10px;
+  padding: 10px;
   margin-top: 10px;
-  padding-left: 10px;
   display: flex;
   background-color: #f7f7f9;
   border-radius: 10px;
-  padding-bottom: 10px;
 }
 
 .codingtext {
@@ -375,7 +349,7 @@ main {
   border-top-left-radius: 80px;
   padding-top: 65px;
   background-color: #6070ff;
-  background-image: url(./Assets/contact\ form\ shapes-mobile.png);
+  background-image: url("./Assets/contact\ form\ shapes-mobile.png");
   background-repeat: no-repeat;
 }
 
@@ -406,7 +380,7 @@ main {
   border-radius: 5px;
   margin-left: 20px;
   font-family: Poppons, sans-serif;
-  border: solid 1px #ffff;
+  border: 1px solid #fff;
   margin-top: 20px;
   font-size: 17px;
   font-weight: 400;
@@ -420,7 +394,7 @@ main {
   border-radius: 5px;
   margin-left: 20px;
   font-family: Poppons, sans-serif;
-  border: solid 1px #ffff;
+  border: 1px solid #fff;
   margin-top: 20px;
   color: #b3bac5;
 }
@@ -439,9 +413,8 @@ main {
   letter-spacing: 0.03em;
   text-align: center;
   color: #6070ff;
-  background-color: #ffff;
-  margin-top: 20px;
-  margin-left: 20px;
+  background-color: #fff;
+  margin: 20px 0 0 20px;
 }
 
 .contact-img {
@@ -453,6 +426,7 @@ main {
 .indicator {
   background-color: #6070ff;
 }
+
 .mobile-menu {
   display: none;
   position: fixed;
@@ -497,24 +471,13 @@ main {
   margin: 10px 0;
 }
 
-.menu-icon {
-  cursor: pointer;
-}
-.menu-nav {
-  display: block; /* Hidden by default on mobile */
-}
-/*  */
-/* Base styles remain the same for mobile */
-
-/* Desktop styles (768px and above) */
-@media screen and (min-width: 768px) {
+@media screen and (width >= 768px) {
   body {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
   }
 
-  /* Header adjustments */
   .navbar {
     padding: 25px 100px;
     display: flex;
@@ -523,10 +486,9 @@ main {
   }
 
   .menu-icon {
-    display: none; /* Hide hamburger menu */
+    display: none;
   }
 
-  /* Show desktop navigation */
   .menu-list {
     display: flex;
     gap: 32px;
@@ -534,12 +496,14 @@ main {
     padding: 0;
     list-style: none;
   }
+
   .desktop-menu {
     display: flex;
     gap: 32px;
     list-style: none;
     margin: 0;
   }
+
   .desktop-menu li a {
     color: #344563;
     text-decoration: none;
@@ -554,7 +518,6 @@ main {
     font-weight: 500;
   }
 
-  /* Headline section */
   .headline {
     width: 100%;
     min-height: 100vh;
@@ -565,16 +528,18 @@ main {
     flex-direction: column;
     justify-content: center;
   }
+
   .headline-link {
-    margin-left: 0px;
+    margin-left: 0;
   }
+
   .headline .social-icons {
     margin-left: -10px;
   }
 
   .headline-title {
     font-size: 48px;
-    margin: 0 0 12px 0;
+    margin: 0 0 12px;
     height: auto;
   }
 
@@ -583,14 +548,13 @@ main {
     height: auto;
     margin: 12px 0;
   }
+
   .headline .background-img {
     display: none;
   }
 
-  /* Work cards section */
-  /* Work cards section */
   .work-cards {
-    padding: 142px 142px;
+    padding: 142px;
     height: auto;
     gap: 142px;
   }
@@ -608,6 +572,7 @@ main {
     gap: 46px;
     align-items: center;
   }
+
   .work-card1 .list1,
   .work-card2 .list1,
   .work-card3 .list1,
@@ -616,19 +581,8 @@ main {
   }
 
   .work-card1 .portfolio_image,
-  .work-card3 .portfolio_image {
-    grid-area: image;
-    width: 100%;
-    height: auto;
-    padding: 0;
-  }
-
-  .work-card1 .card-content,
-  .work-card3 .card-content {
-    grid-area: content;
-  }
-
   .work-card2 .portfolio_image,
+  .work-card3 .portfolio_image,
   .work-card4 .portfolio_image {
     grid-area: image;
     width: 100%;
@@ -636,7 +590,9 @@ main {
     padding: 0;
   }
 
+  .work-card1 .card-content,
   .work-card2 .card-content,
+  .work-card3 .card-content,
   .work-card4 .card-content {
     grid-area: content;
   }
@@ -647,7 +603,6 @@ main {
     padding: 0;
   }
 
-  /* About section */
   .aboutUS {
     width: 100%;
     height: auto;
@@ -666,7 +621,6 @@ main {
     width: 100%;
   }
 
-  /* Contact form */
   .forms {
     width: 100%;
     height: auto;
@@ -703,8 +657,7 @@ main {
   }
 }
 
-/* Tablet-specific adjustments */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (width >= 768px) and (width <= 1023px) {
   .headline {
     padding: 100px 50px;
   }
@@ -719,13 +672,12 @@ main {
   }
 }
 
-/* Large desktop screens */
-@media screen and (min-width: 1440px) {
+@media screen and (width >= 1440px) {
   .headline {
     padding: 200px 260px;
   }
 
   .work-cards {
-    padding: 142px 142px;
+    padding: 142px;
   }
 }
