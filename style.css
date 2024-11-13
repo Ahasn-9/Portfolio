@@ -46,6 +46,10 @@ main {
   display: block;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .menu-icon {
   display: flex;
   flex-direction: column;
