@@ -597,7 +597,7 @@ main {
     grid-area: content;
   }
 
-  .portfolio_image {
+  .work-card1 .portfolio_image {
     width: 100%;
     height: auto;
     padding: 0;
